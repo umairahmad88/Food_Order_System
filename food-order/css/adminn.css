@@ -1,0 +1,142 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper{
+    
+    padding: 1%;
+    width: 80%;
+    margin: 0% auto;
+}
+
+.text-center{
+    text-align: center;
+}
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+
+/* css for table mangae admin */
+.tbl-full{
+    width: 100%;
+}
+
+
+.tbl-30{
+    width: 30%;
+}
+table tr th{
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+
+table tr td{
+    padding: 1%;
+}
+
+/* css for button */
+.btn-primary{
+    background-color: #0996fb;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.btn-primary:hover{
+    background-color: #0577c9;
+}
+
+.btn-secondary{
+    background-color: #09c7fb;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+   
+}
+.btn-secondary:hover{
+    background-color: #08a6d1;
+}
+
+.btn-danger{
+    background-color: #fb99a1;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.btn-danger:hover{
+    background-color: #ff5866;
+}
+.success{
+    color:#6de49e;
+}
+.error{
+    color:red;
+}
+
+/* css for menu */
+.menu{
+    box-shadow: 5px 10px 8px 10px #000000;
+}
+.menu{
+    text-align: center;
+}
+.menu ul{
+    list-style: none;
+    
+}
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(255, 208, 0);
+}
+.menu  ul li a:hover{
+    color: orange;
+}
+
+
+/* css  for main-content */
+
+.main-content{
+    
+    background-color: rgb(236, 235, 235);
+    padding: 3% 0;
+}
+.col-4{
+    width: 18%;
+    margin: 1%;
+    padding: 2%;
+    background-color: white;
+    float: left;
+}
+
+/* css for footer */
+
+.footer{
+    background-color: white;
+    color: white;
+}
+
+
+
+/* css for login */
+.login{
+    
+    width: 20%;
+    margin:5% auto;
+    padding: 2% ;
+}
