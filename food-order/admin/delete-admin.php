@@ -2,10 +2,9 @@
     //include Constants.php file here
     include('config/constants.php');
 
-    //1.get the ID of admin to be deleted
-    //3.Video 3:02
     
-    //admin/delete-admin.php?id=<?php echo $id; >//
+    
+    
 
     //echo $id = $_GET['id'];
     $id = $_GET['id'];
@@ -33,10 +32,6 @@
         $_SESSION['delete'] = "<div class='error'>Failed to delete Admin. Try Again Later.</div>";
         header('location:'.SITEURL.'admin/manage-admin.php');
     }
-    //3.video 14:18 add session
     
-
-    //3.Redirect to Manage Admin with message
-
 
 ?>

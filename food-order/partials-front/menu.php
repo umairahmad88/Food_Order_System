@@ -16,7 +16,7 @@
     <section class="navbar">
         <div class="container">
             <div class="logo">
-                <img src="images/logo.png" alt="Restaurant Logo" class="img-responsive" >
+                <img src="images/logo2.png" alt="Restaurant Logo" class="img-responsive" >
             </div>
             <div class="menu text-right">
                 <ul>

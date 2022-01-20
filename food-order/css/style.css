@@ -71,7 +71,7 @@ h3{
     transition: 0.3s;
 }
 .box-shadow-img:hover{
-    box-shadow: 2px 4px 5px 7px rgba(0,0,0,0.2);
+    box-shadow: 20px 4px 5px 7px rgba(0,0,0,0.2);
 }
 
 .text-right{
@@ -158,12 +158,11 @@ h3{
     margin: 1%;
     float: left;
     padding: 2%;
-    background-color: white;
+    background-color: red;
     border-radius: 15px;
 }
 .food-menu{
-    background-color: #ececec;
-    padding: 4% 0%;
+    background-color: blue;
 }
 .food-menu-img{
     width: 20%;

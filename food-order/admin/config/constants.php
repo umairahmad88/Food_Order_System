@@ -3,7 +3,7 @@
     //start session
     session_start();
 
-//execute Query and save data in database
+    //execute Query and save data in database
     //connect database
     //create constants to store non repeating values because database name database username database password will remain same for whole project
     define('SITEURL','http://localhost/food-order/');

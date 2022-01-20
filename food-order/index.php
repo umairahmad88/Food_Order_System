@@ -5,7 +5,7 @@
 
     <section class="food-search text-center">
         <div class="container"><!-- ((container)) div work as container for aligning the content to centre -->
-            <form action="">
+            <form action="<?php echo SITEURL; ?>food-search.php" method="POST">
                 <input type="search" name="search" placeholder="Search Food Here..." class="box-shadow">
                 <input type="submit" name="submit" value="Search" class="btn btn-primary box-shadow" >
             </form>
@@ -13,7 +13,15 @@
        
     </section>
 
-                                                <!-- catagory section -->
+    <?php 
+        if(isset($_SESSION['order']))
+        {
+            echo $_SESSION['order'];
+            unset($_SESSION['order']);
+        }
+    ?>
+
+                            <!-- catagory section -->
 
 
     <section class="categories">
@@ -41,7 +49,7 @@
                         $image_name = $row['image_name'];
 
                         ?>
-                        <a href="#">
+                        <a href="<?php echo SITEURL; ?>category-foods.php?category_id=<?php echo $id; ?>">
                             <div class="box-3 float-container ">
                                 <?php 
                                     //Check Whether is Avialable or Not
@@ -140,7 +148,7 @@
                                     <h4><?php echo $title; ?></h4>
                                     <p class="food-price"><?php echo $price; ?></p>
                                     <p class="food-detail"><?php echo $description; ?></p>
-                                    <a href="#" class="btn btn-primary">Order Now</a>
+                                    <a href="<?php echo SITEURL;?>order.php?food_id=<?php echo $id;?>" class="btn btn-primary">Order Now</a>
                                 </div>
                                 <div class="clearfix"></div>
                             </div>
